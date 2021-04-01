@@ -7,7 +7,7 @@ The first dataset is used for a simple investigation of the training and evaluat
 ###### The dataset used is the _Airfoil Self-Noise dataset_ and you can find it [here](https://archive.ics.uci.edu/ml/datasets/airfoil+self-noise).
 
 ## Part 2
-The second and more complicated dataset is used for a more complete modeling process, which involves, among others, preprocessing steps such as feature selection and methods for optimizing models through cross validation.
+The second and more complicated dataset is used for a more complete modelling process, which involves, among others, preprocessing steps such as feature selection and methods for optimizing models through cross validation. Due to the large size of the dataset, problems such as rule explosion may appear. In order to avoid that, it is necessary that we decrease its dimensionality by choosing the most significant features and reject the less useful ones. After that, we apply Grid Search and 5-fold Cross Validation to find the best combination of number of features and cluster radius, which leads to the minimum validation error. Using the results that arise from that procedure, we train the final model and we evaluate it according to the MSE, NMSE, NDEI and R^2 metrics.
 
 ###### The dataset used is the _Superconductivty dataset_ and you can find it [here](https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data).
 
