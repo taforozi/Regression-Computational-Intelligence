@@ -11,5 +11,5 @@ The second and more complicated dataset is used for a more complete modelling pr
 
 ###### [Superconductivty dataset](https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data)
 
-## Contact Me
+## Contact
 If there are any questions, feel free to [contact me](mailto:thomi199822@gmail.com?subject=[GitHub]%20Source%20Han%20Sans). 
