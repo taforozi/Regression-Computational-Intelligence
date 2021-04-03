@@ -1,6 +1,4 @@
-%% Fuzzy Systems - Regression Part 1
-% Aforozi Thomais
-% 9291
+%% Fuzzy Systems - Regression Part 1 %%
 % 2 Membership functions - Singleton
 
 function [fis,MSE,RMSE,R2,NMSE,NDEI,y] = TSK_Model_1(training_data,validation_data,check_data)
@@ -18,8 +16,10 @@ options = anfisOptions('InitialFIS', fis, 'EpochNumber', 100,...
     'OptimizationMethod', 1);
 
 [trnFis, trnError, ~, valFis, valError] = anfis(training_data, options);
+
 %% Evaluate trained model
 y = evalfis(check_data(:,1:end-1), valFis);
+
 %% Calculate metrics
 % 1. MSE
 N = length(y);
