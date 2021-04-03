@@ -4,7 +4,7 @@
 %% Clear Workspace
 clear;
 close all;
-%% Read & Prepare dataset
+%% Read & Prepare the dataset
 fprintf('Load & prepare dataset... \n');
 superconduct = csvread('train.csv',1,0);
 
@@ -19,7 +19,7 @@ radii = [0.25 0.45 0.65 0.85];
 meanError = zeros(length(NF),length(radii));
 
 % feature selection
-% relieff returns the most significant predictors
+% relieff returns the indices of the most important predictors
 fprintf('Select features (relieff)... \n');
 [ranks, weights] = relieff(training_data(:,1:end-1), training_data(:,end), 10);
 
