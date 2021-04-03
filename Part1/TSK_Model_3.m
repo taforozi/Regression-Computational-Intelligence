@@ -1,6 +1,4 @@
 %% Fuzzy Systems - Regression Part 1
-% Aforozi Thomais
-% 9291
 % 2 Membership functions - Polynomial
 
 function [fis,MSE,RMSE,R2,NMSE,NDEI,y] = TSK_Model_3(training_data,validation_data,check_data)
