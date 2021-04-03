@@ -1,4 +1,4 @@
-%% Fuzzy Systems - Regression Part 1 %%
+%% Fuzzy Systems - Regression Part 1  
 % 2 Membership functions - Singleton
 
 function [fis,MSE,RMSE,R2,NMSE,NDEI,y] = TSK_Model_1(training_data,validation_data,check_data)
