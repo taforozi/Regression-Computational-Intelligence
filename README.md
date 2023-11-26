@@ -1,5 +1,5 @@
 # Regression-Computational-Intelligence
-The purpose of this assignment is to investigate the ability of **TSK** (Takagi-Sugeno-Tang) models to fit multivariable, nonlinear functions. Especially, using two datasets from the [UCI Repository](https://archive.ics.uci.edu/ml/index.php) and fuzzy neural models, we are trying to estimate the target attribute from the available data. 
+The purpose of this assignment is to investigate the ability of **TSK** (Takagi-Sugeno-Kang) models to fit multivariable, nonlinear functions. Especially, using two datasets from the [UCI Repository](https://archive.ics.uci.edu/ml/index.php) and fuzzy neural models, we are trying to estimate the target attribute from the available data. 
 
 ## Part 1
 The first dataset is used for a simple investigation of the training and evaluation process of such models, as well as illustrating manners of analyzing and interpreting the results. The models that are examined are four and they differ from each other in the number of membership functions (2 or 3) and the type of their output (Singleton or Polynomial). In this case, the small size of the dataset allows us to use the **Grid Partition** method for the input space division.
